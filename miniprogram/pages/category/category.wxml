@@ -1,5 +1,19 @@
 <!--miniprogram/pages/category.wxml-->
 <view class="container">
-  <text>分类</text>
+  <van-sidebar active-key="{{ activeKey }}" bind:change="onChange">
+    <van-sidebar-item title="公司" />
+    <van-sidebar-item title="生活" />
+    <van-sidebar-item title="学校" />
+  </van-sidebar>
+  <view class="page-section-spacing">
+    <scroll-view scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+      <van-row>
+        <van-col class="col-item" span="8" wx:for="{{images}}" wx:key="*this">
+          <cover-image src="{{item.src}}"></cover-image>
+          <text>{{item.name}}{{index+1}}</text>
+        </van-col>
+      </van-row>
+    </scroll-view>
+  </view>
 </view>
 

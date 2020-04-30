@@ -3,8 +3,9 @@
   <view class="user-section">
     <image class="bg" src="/images/user-bg.jpg"></image>
     <view class="header">
-      <vant-icon name="chat"></vant-icon>
-      <vant-icon name="setting"></vant-icon>
+      <van-icon class="header-icon" name="scan" bindtap="scan"></van-icon>
+      <van-icon class="header-icon" name="comment-o"></van-icon>
+      <van-icon class="header-icon" name="setting-o" bindtap="go" data-url="/pages/login/login"></van-icon>
     </view>
     <view class="user-info-box">
       <view class="portrait-box">

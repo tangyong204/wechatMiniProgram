@@ -1,1 +1,22 @@
 /* miniprogram/pages/category.wxss */
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.page-section-spacing{
+  width: 100%;
+  height: 100%;
+}
+.page-section-spacing .col-item{
+  text-align: center;
+}

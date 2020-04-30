@@ -1,10 +1,10 @@
 /**index.wxss**/
 
 page {
-  background: #f6f6f6;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background: linear-gradient(91deg,#f1eefc,#9dc6ff 70%,#a5bcff);
 }
 .login {
   height: 100vh;
@@ -12,6 +12,11 @@ page {
   flex-direction: column;
   justify-content: center;
 }
+.login-button {
+  margin-top: 20rpx;
+}
+
 .login-button .van-button {
   width: 100%;
+  border-radius: 10rpx;
 }

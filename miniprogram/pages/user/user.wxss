@@ -16,7 +16,16 @@ page {
 .user-section .header{
   height: 50rpx;
   line-height: 50rpx;
-  float: left;
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+  z-index: 1;
+  text-align: right;
+  width: 100%;
+}
+.user-section .header .header-icon{
+  margin-right: 30rpx;
+  cursor: pointer;
 }
 .user-section .bg{
   position:absolute;

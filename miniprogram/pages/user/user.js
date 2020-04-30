@@ -5,6 +5,7 @@ Page({
   data: {
     userInfo: {
     },
+    result: '',
   },
 
   onLoad: function () {
@@ -28,5 +29,17 @@ Page({
     wx.navigateTo({
       url: e.currentTarget.dataset.url,
     });
+  },
+  scan: function () {
+    // 允许从相机和相册扫码
+    wx.scanCode({
+      success: (res) => {
+        console.log(res.result);
+        this.setData({
+          result: res.result,
+
+        })
+      }
+    })
   }
 })

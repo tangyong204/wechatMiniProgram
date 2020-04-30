@@ -62,5 +62,20 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  scan: function () {
+    var _this = this;
+    // 允许从相机和相册扫码
+    wx.scanCode({
+      success: (res) => {
+        let result = res.result;
+
+        _this.setData({
+          result: result,
+
+        })
+      }
+    })
   }
 })

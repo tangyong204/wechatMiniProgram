@@ -1,2 +1,5 @@
 <!--miniprogram/pages/scan.wxml-->
-<text>miniprogram/pages/scan.wxml</text>
+<view class="container">
+   <image class="cover-9" src="{{img}}" bindtap="img"></image>
+   <button type="primary" bindtap="scan" id="scan">扫一扫</button>
+</view>

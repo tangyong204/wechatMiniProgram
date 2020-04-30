@@ -33,9 +33,24 @@
       <text>速食生鲜</text>
     </view>
   </view>
-  
-  <view class="ad-1">
-    <image src="/images/temp/ad1.jpg" mode="scaleToFill"></image>
-  </view>
 
+  <van-panel class="panel" title="江城子·乙卯正月二十日夜记梦" desc="苏轼">
+    <view class="content">十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。
+    </view>
+  </van-panel>
+
+  <van-panel class="panel" title="定风波·莫听穿林打叶声" desc="苏轼">
+    <view class="content">三月七日，沙湖道中遇雨，雨具先去，同行皆狼狈，余独不觉。已而遂晴，故作此。莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。
+    </view>
+  </van-panel>
+
+  <van-panel class="panel" title="相见欢·无言独上西楼" desc="李煜">
+    <view class="content">无言独上西楼，月如钩。寂寞梧桐深院锁清秋。剪不断，理还乱，是离愁。别是一般滋味在心头。
+    </view>
+  </van-panel>
+
+  <van-panel class="panel" title="浪淘沙令·帘外雨潺潺" desc="李煜">
+    <view class="content">帘外雨潺潺，春意阑珊。罗衾不耐五更寒。梦里不知身是客，一晌贪欢。独自莫凭栏，无限江山，别时容易见时难。流水落花春去也，天上人间。
+    </view>
+  </van-panel>
 </view>
