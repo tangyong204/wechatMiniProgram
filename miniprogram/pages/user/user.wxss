@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.user-section{
+  height: 260rpx;
+  width: 100%;
+  padding: 50rpx 15rpx 0;
+  position:relative;
+}
+.user-section .header{
+  height: 50rpx;
+  line-height: 50rpx;
+  float: left;
+}
+.user-section .bg{
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(1px);
+  opacity: .7;
+}
+.user-section .mark{
+  text-indent: 40rpx;
+  font-size: 30rpx;
+  color: red;
+}
+.user-info-box{
+  height: 180rpx;
+  display:flex;
+  align-items:center;
+  position:relative;
+  z-index: 1;
+}
+.user-info-box .portrait{
+  width: 130rpx;
+  height: 130rpx;
+  border:5rpx solid #fff;
+  border-radius: 50%;
+}
+.user-info-box .username{
+  margin-left: 20rpx;
+}
+.list {
+  width: 100%;
+}
+.list .card .van-icon-card{
+  color: #e07472;
+}
+.list .location .van-icon-location{
+  color: #5fcda2;
+}
+.list .smile .van-icon-smile{
+  color: #9789f7;
+}
+.list .photograph .van-icon-photograph{
+  color: #ee883b;
+}
+.list .wechat .van-icon-wechat{
+  color: #54b4ef;
+}
+.list .setting .van-icon-setting{
+  color: #e07472;
+}

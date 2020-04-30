@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="swiper">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500">
+      <block wx:for="{{images}}" wx:key="*this">
+        <swiper-item>
+          <cover-image class="swiper-item" src="{{item}}"></cover-image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 分类 -->
+  <view class="cate-section">
+    <view class="cate-item">
+      <image src="/images/temp/c3.png"></image>
+      <text>环球美食</text>
+    </view>
+    <view class="cate-item">
+      <image src="/images/temp/c5.png"></image>
+      <text>个护美妆</text>
+    </view>
+    <view class="cate-item">
+      <image src="/images/temp/c6.png"></image>
+      <text>营养保健</text>
+    </view>
+    <view class="cate-item">
+      <image src="/images/temp/c7.png"></image>
+      <text>家居厨卫</text>
+    </view>
+    <view class="cate-item">
+      <image src="/images/temp/c8.png"></image>
+      <text>速食生鲜</text>
+    </view>
+  </view>
+  
+  <view class="ad-1">
+    <image src="/images/temp/ad1.jpg" mode="scaleToFill"></image>
+  </view>
+
+</view>

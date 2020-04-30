@@ -1,0 +1,5 @@
+<!--miniprogram/pages/category.wxml-->
+<view class="container">
+  <text>分类</text>
+</view>
+
